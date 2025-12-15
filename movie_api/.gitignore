@@ -1,0 +1,14 @@
+# Ignore the virtual environment (Heavy folder)
+venv/
+.venv/
+
+# Ignore the database (Local data only)
+*.db
+*.sqlite3
+
+# Ignore secrets (NEVER upload this)
+.env
+
+# Ignore compiled python junk (Pycache)
+__pycache__/
+*.pyc
